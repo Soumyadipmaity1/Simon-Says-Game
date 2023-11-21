@@ -1,0 +1,117 @@
+body{
+
+text-align: center;
+align-items: center;
+
+background-image: url(./bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem; 
+    margin-top: 2rem;
+
+}
+
+
+.btn-container{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn{
+
+    border: 5px solid black;
+}
+
+.pink{
+background-color: rgb(220, 71, 96);
+}
+
+.blue{
+    background-color: rgb(64, 64, 240);
+}
+
+.green{
+    background-color: rgb(44, 101, 44);
+
+}
+
+.yellow{
+    background-color: rgb(220, 201, 28);
+}
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(56, 255, 56);
+}
+
+h1{
+
+/* background: linear-gradient(to right, #848482, #000000); */
+padding: 2px;
+color: rgb(240, 244, 248);
+border-bottom: 2px solid rgb(199, 198, 198);
+padding-bottom: 12px;
+}
+
+h2{
+color: azure;
+padding-top: 3px ;    
+}
+
+ul,h3{
+    text-align: left;
+    color: aliceblue;
+    text-decoration-style: wavy;
+}
+
+.guide{
+
+    width: auto;
+}
+.beauty{
+    flex: auto;
+    justify-content: center;
+
+
+}
+h3{
+
+    text-decoration: underline;
+    
+}
+
+
+.all-rights-reserved {
+    font-size: 14px;
+    color: #858282; /* Set your desired text color */
+    padding-top: 20px;
+    border-top: #858181 solid;
+    width: auto;
+    margin:auto
+}
+
+button{
+
+    padding: 6px;
+    padding-left: 20px ;
+    padding-right:  20px;
+    margin: auto;
+    border-radius: 2rem;
+
+
+}
+ button:hover{
+    background-color: #000000;
+    color: aliceblue;
+    cursor: pointer;
+ }
